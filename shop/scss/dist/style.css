@@ -1,0 +1,257 @@
+/* Body */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Title */
+.title-h2 {
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+/* Page */
+.page {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.page-light {
+  background-color: #F9F6F1;
+}
+.page-dark {
+  background-color: #212121;
+}
+
+/* Wrapper */
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 26px;
+  padding-top: 45px;
+}
+
+/* Nav */
+.nav {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+.nav-item {
+  margin-right: 52px;
+}
+.nav-link {
+  color: #212121;
+  text-decoration: none;
+}
+
+/* Cart */
+.cart {
+  background-image: url(../img/cart.svg);
+  display: block;
+  padding-left: 50px;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+.cart-count {
+  background-image: url(../img/cart-bg.svg);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 24px;
+  color: #fff;
+  display: block;
+}
+
+/* Main */
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.main-item {
+  flex: 0 0 50%;
+}
+.main .sale-description {
+  font-size: 30px;
+  letter-spacing: -0.6px;
+}
+.main .sale-title {
+  font-size: 55px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+
+/* Button */
+.btn {
+  background-color: #D7B399;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 18px 28px;
+}
+.btn-xs {
+  padding: 8px 28px;
+}
+.btn-center {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  max-width: 200px;
+}
+
+/* Box */
+.box {
+  position: relative;
+}
+.box-price {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 35px;
+}
+.box-price-old {
+  font-size: 24px;
+  font-weight: 700;
+}
+.box-price-new {
+  font-size: 42px;
+  font-weight: 700;
+  color: #D84033;
+  margin-top: 17px;
+}
+
+/* Notice */
+.notice {
+  text-align: center;
+  padding: 64px 0 54px;
+  color: #fff;
+}
+.notice-title {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.notice-title span {
+  font-weight: 700;
+}
+
+/* Collection */
+.collection {
+  display: flex;
+  justify-content: space-between;
+}
+.collection-man {
+  background-image: url(/img/man.png);
+}
+.collection-woman {
+  background-image: url(/img/woman.png);
+}
+.collection-item {
+  flex: 0 0 50%;
+  background-repeat: no-repeat;
+  background-size: 190px 171px;
+  background-position: calc(100% - 50px) bottom;
+  padding: 50px 0;
+}
+.collection-title {
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.collection-description {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* Product */
+.product {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.product-item {
+  flex: 0 0 24%;
+  position: relative;
+}
+.product-item:before, .product-item:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-item:before {
+  background-image: url(/img/item-top.svg);
+}
+.product-item:after {
+  background-image: url(/img/item-bottom.svg);
+}
+.product-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+.product-price {
+  color: #D7B399;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.footer-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer-list-title {
+  font-size: 12px;
+  font-weight: 700;
+}
+.footer-list-link {
+  text-decoration: none;
+  font-size: 14px;
+  color: #CBCFD4;
+}
+.footer-list-item {
+  margin-bottom: 10px;
+}
+.footer-logo {
+  flex: 0 0 40%;
+}
+.footer-nav {
+  flex: 0 0 60%;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.footer-bottom-link {
+  text-decoration: none;
+  color: #212121;
+}
